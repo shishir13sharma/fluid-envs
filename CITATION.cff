@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the accompanying paper."
+title: "fluid-envs"
+abstract: >-
+  JAX multi-agent reinforcement learning grid environments with variable agent
+  populations, where agents can spawn new agents at run time.
+type: software
+authors:
+  - family-names: Sharma
+    given-names: Shishir
+version: 0.1.0
+date-released: 2026-06-30          
+license: MIT
+repository-code: "https://github.com/shishir13sharma/fluid-envs"
+url: "https://github.com/shishir13sharma/fluid-envs"
+keywords:
+  - reinforcement-learning
+  - multi-agent-reinforcement-learning
+  - jax
+
+# The paper this code accompanies. 
+preferred-citation:
+  type: conference-paper
+  title: Fluid-Agent Reinforcement Learning
+  authors:
+    - family-names: Sharma
+      given-names: Shishir
+    - family-names: Precup
+      given-names: Doina
+    - family-names: Perkins
+      given-names: Theodore
+  year: 2026
+  collection-title: "Proceedings of the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
