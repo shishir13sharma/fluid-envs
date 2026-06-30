@@ -12,7 +12,6 @@ All three are written in JAX (jittable, `vmap`-able over batches of environments
 
 ```bash
 pip install -e .
-# JAX is installed CPU-only by default; for GPU follow the official JAX install guide.
 ```
 
 ## Quickstart
@@ -75,8 +74,6 @@ Actions: `0=Down, 1=Left, 2=Up, 3=Right, 4=None, 5=Spawn`. A prey is captured wh
 ### Foraging (LBF)
 
 Actions: `0=None, 1=North, 2=South, 3=West, 4=East, 5=Load, 6=Spawn`. Food at a cell is collected when the summed level of adjacent agents issuing `Load` meets or exceeds the food level; reward is shared in proportion to contributed level. Key constructor args: `grid_size`, `init_num_agents`, `max_agents`, `num_food`, `max_level`, `max_steps`, `agent_view`, `spawn_cost`, `step_cost`, `init_agent_levels`, `init_food_levels`, `VarA`.
-
-Rendering uses `fluid_envs/assets/lbf/agent.png` and `apple.png`. **Placeholder art ships in the repo — replace those two files with your own.**
 
 ### PuddleBridge
 
