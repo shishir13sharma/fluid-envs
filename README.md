@@ -97,7 +97,7 @@ pytest -q
 
 ## Citation
 
-This repository provides the environment suite used in our AAMAS 2026 paper. If you use these environments, please cite the paper (not just the repo):
+This repository provides the environment suite used in our AAMAS 2026 paper. If you use these environments, please cite the paper:
 
 ```bibtex
 @inproceedings{sharma2026fluid,
