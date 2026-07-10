@@ -95,6 +95,24 @@ pip install -e ".[dev]"
 pytest -q
 ```
 
+## Citation
+
+This repository provides the environment suite used in our AAMAS 2026 paper. If you use these environments, please cite the paper (not just the repo):
+
+```bibtex
+@inproceedings{sharma2026fluid,
+  title     = {Fluid-Agent Reinforcement Learning},
+  author    = {Sharma, Shishir and Precup, Doina and Perkins, Theodore},
+  booktitle = {Proceedings of the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+  year      = {2026},
+  doi       = {10.65109/TAXB8518},
+  note      = {arXiv:2602.14559}
+}
+```
+
+A machine-readable citation is also available in [`CITATION.cff`](CITATION.cff), including a `preferred-citation` field pointing to the paper — this is what populates GitHub's "Cite this repository" button.
+
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

@@ -31,3 +31,8 @@ preferred-citation:
       given-names: Theodore
   year: 2026
   collection-title: "Proceedings of the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+  doi: "10.65109/TAXB8518"
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2602.14559"
+      description: "arXiv preprint"
